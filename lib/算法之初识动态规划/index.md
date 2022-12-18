@@ -649,11 +649,13 @@ function fib(n: number): number {
 
 ![[杨辉三角改造题.png]]
 
-* 2022.12 更新，使用比较常规的动态规划实现。
+* 2022.12 更新，使用比较常规的动态规划实现。但也有优化的空间，例如可以优化成一维数组。
 
 ```typescript
 /**
  * @description: 三角形最小路径和
+ * 时间复杂度 O(n²)
+ * 空间复杂度 O(n²)
  * @param {number[][]} triangle
  * @return {number}
  */
